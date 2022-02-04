@@ -22,7 +22,7 @@ nav
 
 .menu
 	display: flex	
-	justify-content: end
+	justify-content: space-between
 	padding: 10px 70px
 	margin: 0
 	list-style-type: none
@@ -340,16 +340,89 @@ nav
 	padding: 75px 0 84px 0
 	background: url('../img/bg/world_bg.png') center center / cover no-repeat
 	&_link
-		display: block;
+		display: block
 		margin-top: 490px
 		text-decoration: none
-		font-style: normal;
+		font-style: normal
 		font-weight: 400
-		font-size: 15px;
-		text-align: center;
-		text-transform: uppercase;
-		color: #1FBAD6;
+		font-size: 15px
+		text-align: center
+		text-transform: uppercase
+		color: #1FBAD6
 	
+footer 
+	padding: 18px 23px 39px 23px
+	a  
+		text-decoration: none
+.footer
+	&_divider
+		width: 300px
+		height: 4px
+		background-color: $main-color
+		margin: 0 auto
+	&_wrapper
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div 
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+	&_social
+		display: flex
+		justify-content: flex-start
+		&_item
+			display: flex 
+			justify-content: center
+			align-items: center
+			margin: 0 5px 
+			width: 27px
+			height: 27px
+			background-color: #070716
+			border-radius: 20%
+			i 
+				color: #fff
+	&_links
+		width: 450px
+		margin: o auto
+		&_main
+			display: flex
+			justify-content: space-around
+			a
+				color: #070716
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub
+			display: flex
+			justify-content: space-between
+			a
+				margin-top: 15px
+				font-weight: 300
+				font-size: 11px
+				display: flex
+				align-items: center
+				text-transform: uppercase
+				color: #999999
+	&_language
+			display: block 
+			margin: 0 auto
+			font-size: 11px
+			font-weight: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center
+			color: $main-color
+	&_mobile
+		a
+			margin-right: 5px
+
+
+
+
+
 
 			
 
